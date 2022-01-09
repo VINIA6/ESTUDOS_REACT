@@ -26,3 +26,10 @@ um objeto chamado prop types e ainda há a possibilidade de definir um valor pad
 * Eventos:
 Os eventos de React são os mesmo ecentos do DOM, ou seja, temos eventos para responder a um click.
 O evento é atrelado a uma tag que irá executa-lo, geralmente um método é atribuido ao evento, este método deve ser criado no componente.
+
+-----------------------------------------------------------------------------
+* UseState:
+O useState é um hook do React, com ele conseguimos manusear o estado de um componente de forma simples, este hook funciona muito bem com eventos,
+podemos atrelar um evento a mudanças de state.
+
+Obs 05: Entendendo melhor um pouco de useState, basicamente ele vai pegar os valores gerado a partir de um evento e/ou guardar ou enviar para o backend
