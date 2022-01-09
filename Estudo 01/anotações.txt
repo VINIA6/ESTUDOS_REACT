@@ -1,0 +1,21 @@
+* Entendendo o JSX:
+
+O jsx é como um html, porém dentro do código JS
+Podemos com ele interpolar variaveis, inserindo elas dentro de {},
+também é possivel executar funções em jsx.
+
+Obs 01: A função app é nossa função main digamos assim, tudo vai ser escrito dentro dela, vejamos.
+Obs 02: Quando quisermos escrever alguma coisa de js dentro das tags html devemos escrever dentro de {LÓGICA}.
+Obs 03: Podemos escrever funções dentro da função app.
+Obs 04: Podemos fazer operações de atributo
+-----------------------------------------------------------------------------
+* Componentes:
+
+Serve para dividir a aplicação em diversas partes, os componentes renderizados JSX, como por exemplo
+App.js que é um componente, normalmente ficam em uma pasta chamada componentes, praticamente é uma forma de trabalho
+em dividir os nossos codigos js que vão se comunicar através de importação/exportação.
+-----------------------------------------------------------------------------
+* Props:
+
+São valores passados para os componentes, podemos deixalos dinâmicos, ou seja, mudando a execução por causa do valor prop.
+É preciso ser resgatado dentro de uma porpriedade/argumento chamada ptrops na função de definição do componente
