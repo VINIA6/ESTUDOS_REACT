@@ -19,3 +19,10 @@ em dividir os nossos codigos js que vão se comunicar através de importação/e
 
 São valores passados para os componentes, podemos deixalos dinâmicos, ou seja, mudando a execução por causa do valor prop.
 É preciso ser resgatado dentro de uma porpriedade/argumento chamada ptrops na função de definição do componente
+Outro recursos em props -> Podemos definir tipospara as props, realizando uma espécie de validação, podemos tbm definir em 
+um objeto chamado prop types e ainda há a possibilidade de definir um valor padrão.
+
+-----------------------------------------------------------------------------
+* Eventos:
+Os eventos de React são os mesmo ecentos do DOM, ou seja, temos eventos para responder a um click.
+O evento é atrelado a uma tag que irá executa-lo, geralmente um método é atribuido ao evento, este método deve ser criado no componente.
